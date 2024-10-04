@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irfan Study Circle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a href="https://wa.me/919990369348?text=Hello%20Sir!" class="social-float whatsapp" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    </a>
+    <a href="https://www.instagram.com/irfansstudycircle/" class="social-float instagram" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+    </a>
+    <a href="https://youtube.com/@irfansstudycircle" class="social-float youtube" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" />
+    </a>
+
+    <header>
+        <img src="Abhi.jpg" alt="Header Image" class="header-image">
+        <nav>
+            <button class="menu-toggle">☰</button>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#daily-quotes">Daily Quotes</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#map">Locate Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="floating-message">
+        <div class="message">
+            Wanna join us? <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGQRDfrSfEy7rqVnJ8JNF41wFKDcDdT6EZhrKRtcd6zjka5A/viewform" target="_blank">Register now</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <section id="daily-quotes">
+            <blockquote>
+                <p>"Loading quote..."</p>
+            </blockquote>
+        </section>
+
+        <section id="hero">
+            <div class="hero-image">
+                <img src="your-image-url.jpg" alt="Hero Image 1" class="active">
+                <img src="Abhi.jpg" alt="Hero Image 2">
+                <img src="scanner.jpg" alt="Hero Image 3">
+                <img src="img.jpg" alt="Hero Image 4">
+            </div>
+        </section>
+
+        <section id="what-we-offer">
+            <div class="offer-content">
+                <img src="your-image-url.jpg" alt="What We Offer" class="offer-image">
+                <div class="offer-text">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGQRDfrSfEy7rqVnJ8JNF41wFKDcDdT6EZhrKRtcd6zjka5A/viewform" class="cta">Enroll Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <div class="recommendation-list" id="recommendation-list">
+                <!-- Testimonials will be injected here by JavaScript -->
+            </div>
+            <div class="navigation">
+                <button class="nav-button" id="prevBtn">Previous</button>
+                <button class="nav-button" id="nextBtn">Next</button>
+            </div>
+        </section>
+
+        <section id="helpful-links" class="helpful-links">
+            <h2>Helpful Links</h2>
+            <ul>
+                <li><a href="https://www.cbse.gov.in/cbsenew/samplepaper.html">CBSE Sample Papers</a></li>
+                <li><a href="https://www.cbse.gov.in/cbsenew/question_bank.html">CBSE Question Bank</a></li>
+                <li><a href="https://www.cbse.gov.in/cbsenew/cbse.html">CBSE Notifications</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At Irfan Study Circle, we are passionate about empowering students through quality education. Our dedicated team of experienced educators focuses on creating personalized learning experiences in key subjects like Mathematics, Science, and Social Studies.</p>
+            <p>We believe that every student has unique potential, and we strive to nurture curiosity and critical thinking in a supportive environment. Our mission is to inspire academic excellence and equip students with the knowledge and skills they need for future success. Join us in shaping a brighter educational journey!</p>
+        </section>
+
+        <section id="map">
+            <h2>Locate Us</h2>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=28.608298,77.335461" target="_blank" style="display: block; height: 100%; width: 100%;">
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d489.1939674895012!2d77.33554682183859!3d28.607961171643904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5b1347e9f9f%3A0xf9d62f29c1164954!2sIrfan%20Study%20Circle!5e0!3m2!1sen!2sin!4v1728064947203!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </a>
+        </section>
+
+        <div class="fixed-card">
+            <img src="scanner.jpg" alt="Tuition Center" />
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Irfan Study Circle. All Rights Reserved.</p>
+            <p>Developed by <a href="https://www.linkedin.com/in/priyanshu-uniyal-2a2786252/" target="_blank">Priyanshu Uniyal</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
